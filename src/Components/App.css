@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+    color:white;
+    align-items: center;
+    margin-left: 400px;
+    
+}
+.App {
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+  
+  /*h1 {
+    text-align: center;
+  }*/
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+   
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  input[type="text"] {
+
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: black;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 5px;
+  }
+  button{
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+  }
+  .errorList{
+    color:red;
+  }
+  .setErrors{
+    color: red;
+  }
